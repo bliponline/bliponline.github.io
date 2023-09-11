@@ -12,7 +12,7 @@ body {
     width: 100vw;
     height: 115vh;
     background: #111111;
-    position: absolute;
+    position: relative;
     border-color: lightgray;
     border-width: 1px;
 }
@@ -142,10 +142,10 @@ body {
 .imgslider {
     height: 99vh;
     width: 100vw;
+    position: relative;
 }
 
 .sliderfore {
     z-index: 2;
-    padding-top: 1074px;
 }
 
