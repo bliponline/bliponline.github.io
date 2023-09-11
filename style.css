@@ -90,6 +90,11 @@ body {
     transform: translateX(0);
 }
 
+.welcomebuttonblock {
+    position: absolute;
+    z-index: 4;
+}
+
 .btnwelcome1 {
     background-color: #9f38cf;
     color: white;
@@ -139,14 +144,64 @@ body {
     transform: scale(0.9);
 }
 
-.imgslider {
+.imagerow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    height: 0px;
+    padding-top: 80vh;
+}
+
+.imagerowimg {
+    height: 29.6vh;
+    width: 376px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.card {
+    width: 20%;
+    background: #111111;
+    border: 1px solid #ffffff;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    z-index: 3;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.cardimage {
+    align-items: center;
+    display: grid;
+    padding: 4px;
+    background-color: #232323; 
+    color: #fff;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding-top: 4px;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 13px;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 5px;
+}
+
+  .imgslider {
     height: 99vh;
     width: 100vw;
-    position: relative;
+    position: absolute;
+    transform: translateY(-80vh);
 }
 
 .sliderfore {
     z-index: 2;
-    padding-top: 115vh
+    padding-top: 115vh;
 }
 
