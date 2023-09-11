@@ -12,7 +12,7 @@ body {
     width: 100vw;
     height: 115vh;
     background: #111111;
-    position: relative;
+    position: absolute;
     border-color: lightgray;
     border-width: 1px;
 }
@@ -147,5 +147,6 @@ body {
 
 .sliderfore {
     z-index: 2;
+    padding-top: 115vh
 }
 
